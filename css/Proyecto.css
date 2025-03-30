@@ -37,13 +37,14 @@ body{
 .categoria{
     grid-row: 7;
     grid-column: 3;
-    margin: 5px;
-    padding: 5%;
+    margin: 20px;
+    padding: 20%;
     line-height: 1.2;
+    text-align: center;
 }
 
 .seccion{
-    width: 80%;
+    width: 100%;
     height: 80%;
     display:grid;
     grid-template-rows: repeat(5,auto);
@@ -52,6 +53,7 @@ body{
     grid-template-columns: 33% 33% 33%;
     grid-template-columns: 33% 33% 33%;
     justify-items: center;
+    text-align: center;
     
 
     
@@ -83,7 +85,7 @@ img{
     background-color: aliceblue;
     color: white;
     width: 100%;
-    height: 10%;
+    height: 20%;
     display: grid;
     grid-template-rows:33% 33% 33%;
     grid-template-columns: 33% 33% 33%;
